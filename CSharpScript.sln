@@ -1,0 +1,85 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpScriptToCSharpConverter", "CSharpScriptToCSharpConverter\CSharpScriptToCSharpConverter.csproj", "{B97371AB-3AB5-484C-A31A-3214B1FF7AD6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Examples", "Examples", "{93992FC8-AB6C-495A-8166-A20DEAF5E8AA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Example 01 Transportable", "Example 01 Transportable", "{1051F436-3A85-4845-A76D-17DBBDCE3402}"
+	ProjectSection(SolutionItems) = preProject
+		Examples\Example 01 Transportable\AbstractTransportable.chs = Examples\Example 01 Transportable\AbstractTransportable.chs
+		Examples\Example 01 Transportable\Bike.chs = Examples\Example 01 Transportable\Bike.chs
+		Examples\Example 01 Transportable\Car.chs = Examples\Example 01 Transportable\Car.chs
+		Examples\Example 01 Transportable\CategoryATransportable.chs = Examples\Example 01 Transportable\CategoryATransportable.chs
+		Examples\Example 01 Transportable\CategoryBTransportable.chs = Examples\Example 01 Transportable\CategoryBTransportable.chs
+		Examples\Example 01 Transportable\CategoryCTransportable.chs = Examples\Example 01 Transportable\CategoryCTransportable.chs
+		Examples\Example 01 Transportable\ITransportable.chs = Examples\Example 01 Transportable\ITransportable.chs
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpScriptLibrary", "CSharpScriptLibrary\CSharpScriptLibrary.csproj", "{AB1DCDE4-E805-4904-A0C1-A42A51501867}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpScript", "CSharpScript\CSharpScript.csproj", "{D894F18A-E01B-4680-A7A1-BDB10023DBF3}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 4
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://tfs.codeplex.com/tfs/tfs16
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = CSharpScriptToCSharpConverter\\CSharpScriptToCSharpConverter.csproj
+		SccProjectName1 = CSharpScriptToCSharpConverter
+		SccLocalPath1 = CSharpScriptToCSharpConverter
+		SccProjectUniqueName2 = CSharpScriptLibrary\\CSharpScriptLibrary.csproj
+		SccProjectName2 = CSharpScriptLibrary
+		SccLocalPath2 = CSharpScriptLibrary
+		SccProjectUniqueName3 = CSharpScript\\CSharpScript.csproj
+		SccProjectName3 = CSharpScript
+		SccLocalPath3 = CSharpScript
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B97371AB-3AB5-484C-A31A-3214B1FF7AD6}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{B97371AB-3AB5-484C-A31A-3214B1FF7AD6}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{B97371AB-3AB5-484C-A31A-3214B1FF7AD6}.Debug|Mixed Platforms.Build.0 = Debug|x86
+		{B97371AB-3AB5-484C-A31A-3214B1FF7AD6}.Debug|x86.ActiveCfg = Debug|x86
+		{B97371AB-3AB5-484C-A31A-3214B1FF7AD6}.Debug|x86.Build.0 = Debug|x86
+		{B97371AB-3AB5-484C-A31A-3214B1FF7AD6}.Release|Any CPU.ActiveCfg = Release|x86
+		{B97371AB-3AB5-484C-A31A-3214B1FF7AD6}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{B97371AB-3AB5-484C-A31A-3214B1FF7AD6}.Release|Mixed Platforms.Build.0 = Release|x86
+		{B97371AB-3AB5-484C-A31A-3214B1FF7AD6}.Release|x86.ActiveCfg = Release|x86
+		{B97371AB-3AB5-484C-A31A-3214B1FF7AD6}.Release|x86.Build.0 = Release|x86
+		{AB1DCDE4-E805-4904-A0C1-A42A51501867}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB1DCDE4-E805-4904-A0C1-A42A51501867}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB1DCDE4-E805-4904-A0C1-A42A51501867}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{AB1DCDE4-E805-4904-A0C1-A42A51501867}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{AB1DCDE4-E805-4904-A0C1-A42A51501867}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{AB1DCDE4-E805-4904-A0C1-A42A51501867}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB1DCDE4-E805-4904-A0C1-A42A51501867}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB1DCDE4-E805-4904-A0C1-A42A51501867}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{AB1DCDE4-E805-4904-A0C1-A42A51501867}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{AB1DCDE4-E805-4904-A0C1-A42A51501867}.Release|x86.ActiveCfg = Release|Any CPU
+		{D894F18A-E01B-4680-A7A1-BDB10023DBF3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D894F18A-E01B-4680-A7A1-BDB10023DBF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D894F18A-E01B-4680-A7A1-BDB10023DBF3}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{D894F18A-E01B-4680-A7A1-BDB10023DBF3}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{D894F18A-E01B-4680-A7A1-BDB10023DBF3}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{D894F18A-E01B-4680-A7A1-BDB10023DBF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D894F18A-E01B-4680-A7A1-BDB10023DBF3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D894F18A-E01B-4680-A7A1-BDB10023DBF3}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{D894F18A-E01B-4680-A7A1-BDB10023DBF3}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{D894F18A-E01B-4680-A7A1-BDB10023DBF3}.Release|x86.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1051F436-3A85-4845-A76D-17DBBDCE3402} = {93992FC8-AB6C-495A-8166-A20DEAF5E8AA}
+	EndGlobalSection
+EndGlobal
